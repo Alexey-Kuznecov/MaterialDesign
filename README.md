@@ -1,7 +1,7 @@
 # MySetGulp
 Configure packages such as npm, bower, gitignore, gulp, and more.
 
-##Install plugins:
+## Install plugins:
 * gulp
 * gulp-sass
 * browser-sync
