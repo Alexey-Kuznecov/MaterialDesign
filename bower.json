@@ -1,0 +1,9 @@
+{
+   "name": "MySetGulp",
+   "version": "1.0",
+   "devDependencies": {
+      "magnific-popup": "last",
+      "jquery": "2.0.1"
+   },
+   "dependencies": {}
+}
