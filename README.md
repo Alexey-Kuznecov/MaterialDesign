@@ -1,5 +1,5 @@
 # MySetGulp
-Configure packages such as npm, bower, gitignore, gulp, and more.
+Configure packages such as npm, bower, sass, gulp, and more.
 
 ## Install plugins:
 * gulp
