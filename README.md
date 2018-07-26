@@ -5,6 +5,7 @@ Configure packages such as npm, bower, sass, gulp, and more.
 1. git clone https://github.com/AlexsofarBOT/MySetGulp.git
 2. npm i
 3. bower i
+4. gulp watch
 
 ## Install plugins:
 * gulp
