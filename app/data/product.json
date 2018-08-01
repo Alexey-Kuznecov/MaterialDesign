@@ -1,0 +1,59 @@
+{
+   "products":[
+   {
+      "product_id": 1,
+      "title": "Card Title",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "image": "imgs/001.jpg",
+      "reference": "#!",
+      "rating": "206"
+   },
+   {
+      "product_id": 2,
+      "title": "Card Title",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "image": "imgs/002.jpg",
+      "reference": "#!",
+      "rating": "220"
+   },
+   {
+      "product_id": 3,
+      "title": "Card Title",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "image": "imgs/003.jpg",
+      "reference": "#!",
+      "rating": "444"
+   },
+   {
+      "product_id": 4,
+      "title": "Card Title",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "image": "imgs/004.jpg",
+      "reference": "#!",
+      "rating": "331"
+   },
+   {
+      "product_id": 5,
+      "title": "Card Title",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "image": "imgs/005.jpg",
+      "reference": "#!",
+      "rating": "260"
+   },
+   {
+      "product_id": 6,
+      "title": "Card Title",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "image": "imgs/006.jpg",
+      "reference": "#!",
+      "rating": "274"
+   },
+   {
+      "product_id": 7,
+      "title": "Card Title",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "image": "imgs/007.jpg",
+      "reference": "#!",
+      "rating": "274"
+   }
+]}
