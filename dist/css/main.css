@@ -1,5 +1,10 @@
 body {
-  font-size: 24px; }
+  font-size: 24px;
+  color: #96AD2D; }
 
 body {
-  background: #ccc; }
+  background: #ccc;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }

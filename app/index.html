@@ -1,14 +1,137 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <title></title>
+   <meta charset=utf-8>
+   <!--Import Google Icon Font-->
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
    <link rel="stylesheet" type="text/css" href="css/libs.min.css">
    <link rel="stylesheet" type="text/css" href="css/main.css">
+   <title>Material Design</title>
 </head>
 <body>
-   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-   <script src="js/libs.min.js"></script>
-   <script src="js/common.js"></script>
+   <nav class="nav-wrapper">
+      <div class="container">
+         <div class="logo">
+               <a href="#" class="brand-logo"><img src="imgs/Logo-v9.png" alt="material-icons" width="40"></a>
+            </div>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+               <li class="active"><a href="#">Галерея</a></li>
+               <li><a href="#">О себе</a></li>
+               <li><a class="modal-trigger" href="#modal1">Обратная саязь</a></li>
+               <li><a href="#">Выставки</a></li>
+            </ul>
+         <ul class="side-nav" id="mobile-demo">
+            <li><a class="collapsible-header waves-effect" tabindex="0">Галерея</a></li>
+            <li><a class="collapsible-header waves-effect" tabindex="1">О себе</a></li>
+            <li><a class="collapsible-header waves-effect" tabindex="2">Обратная саязь</a></li>
+            <li><a class="collapsible-header waves-effect" tabindex="3">Выставки</a></li>
+         </ul>
+      </div>
+   </nav>
+   <main>
+   <div class="container">
+      <h2>Лучшие картины</h2>
+   </div>
+   <div class="container">
+      <div id="card-product" class="row"></div>
+   </div>
+   <div class="section white">
+      <div class="row container">
+         <h1 class="header">Йенифер</h1>
+         <p class="grey-text text-darken-3 lighten-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ad consequatur beatae, atque in cumque cupiditate minima sit, maxime blanditiis quod dolores harum, dicta necessitatibus dolorem tempora esse et labore, maiores sed est voluptates officiis nisi distinctio officia. Voluptatem quisquam laboriosam doloremque ea eligendi eveniet accusantium quasi fuga, placeat dicta quidem impedit dolores recusandae, nostrum consequuntur natus porro. Voluptates nobis molestias quas. Laudantium itaque labore facere maxime rerum soluta incidunt explicabo repellendus. Possimus, ipsa doloremque necessitatibus! Corporis velit facere expedita laudantium facilis cumque, sunt consequatur aliquam incidunt doloribus, laboriosam totam. Animi voluptate, voluptatibus sequi quidem nostrum deleniti suscipit nemo! Aspernatur.</p>
+      </div>
+      <div class="container">
+         <a id="btnb" href="#!" class="btn-large waves-effect waves-custom">Читать дальше...</a>
+      </div>
+   </div>
+   <div class="container parallax-container">
+      <div class="parallax">
+         <img src="imgs/slide/witcher004.jpg" alt="">
+      </div>
+   </div>
+   <div class="section white">
+      <div class="row container">
+         <h1 class="header">Геральт</h1>
+         <p class="grey-text text-darken-3 lighten-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ad consequatur beatae, atque in cumque cupiditate minima sit, maxime blanditiis quod dolores harum, dicta necessitatibus dolorem tempora esse et labore, maiores sed est voluptates officiis nisi distinctio officia. Voluptatem quisquam laboriosam doloremque ea eligendi eveniet accusantium quasi fuga, placeat dicta quidem impedit dolores recusandae, nostrum consequuntur natus porro. Voluptates nobis molestias quas. Laudantium itaque labore facere maxime rerum soluta incidunt explicabo repellendus. Possimus, ipsa doloremque necessitatibus! Corporis velit facere expedita laudantium facilis cumque, sunt consequatur aliquam incidunt doloribus, laboriosam totam. Animi voluptate, voluptatibus sequi quidem nostrum deleniti suscipit nemo! Aspernatur.</p>
+      </div>
+      <div class="container">
+         <a href="#!" class="btn-large waves-effect waves-mycolor">Читать дальше...</a>
+      </div>
+   </div>
+   <div class="container parallax-container">
+      <div class="parallax">
+         <img src="imgs/slide/witcher005.jpg" alt="">
+      </div>
+   </div>
+   <div id="modal1" class="modal">
+      <div class="modal-content">
+         <div class="row">
+          <form class="col s12">
+               <div class="row">
+                  <div class="input-field col s6">
+                     <i class="material-icons prefix">account_circle</i>
+                     <input type="text" class="validate" placeholder="Name" id="first_name">
+                     <label for="first_name">First name</label>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="input-field col s6">
+                     <i class="material-icons prefix">account_circle</i>
+                     <input type="text" class="validate" id="last_name">
+                     <label for="last_name">Last name</label>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="input-field col s12">
+                      <i class="material-icons prefix">lock</i>
+                      <input type="password" class="password" id="password">
+                      <label for="password">Password</label>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="input-field col s12">
+                      <i class="material-icons prefix">mail</i>
+                      <input type="email" class="email" id="email">
+                      <label for="email">email</label>
+                  </div>
+               </div>
+            </form>
+         </div>
+      </div>
+      <div class="modal-footer">
+         <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+      </div>
+   </div>
+</main>
+<div class="page-footer">
+   <div class="container">
+      <div class="row">
+         <div class="col l6 s12">
+            <h5 class="white-text">Footer content</h5>
+            <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error possimus sequi mollitia, officiis aperiam rem deleniti eligendi accusamus! Fugit laboriosam ea autem, dolores sunt, maiores distinctio doloremque. Facere dolore possimus eos ipsa nulla modi culpa, hic debitis eligendi ullam, eum.</p>
+         </div>
+         <div class="col l4 offset-12 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+               <li><a href="#!" class="grey-text text-lighten-3">link1</a></li>
+               <li><a href="#!" class="grey-text text-lighten-3">link2</a></li>
+               <li><a href="#!" class="grey-text text-lighten-3">link3</a></li>
+               <li><a href="#!" class="grey-text text-lighten-3">link4</a></li>
+            </ul>
+         </div>
+      </div>
+   </div>
+   <div class="footer-copyright">
+      <div class="container">@Material Design 2010
+         <a href="#!" class="grey-text text-lighten-4 right">More links</a>
+      </div>
+   </div>
+</div>
+<script src="js/libs.min.js"></script>
+<script src="js/product.js"></script>
+<script src="js/common.js"></script>
+<script src="js/smart-container.js"></script>
 </body>
 </html>

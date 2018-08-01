@@ -1,9 +1,9 @@
 {
-   "name": "MySetGulp",
-   "version": "1.0",
-   "devDependencies": {
-      "magnific-popup": "latest",
-      "jquery": "2.0.1"
-   },
-   "dependencies": {}
+  "name": "MaterialDesign",
+  "version": "1.0",
+  "dependencies": {
+   "jquery": "2.0.1",
+    "materialize": "^0.100.2"
+  },
+  "devDependencies": { }
 }
